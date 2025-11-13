@@ -1,0 +1,52 @@
+/* reset default browser magin*/
+body
+{
+    background-color: bisque;
+    margin: 5px;
+    padding: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    line-height: 1.5;
+}
+header
+{
+    background-color: teal;
+    color: white;
+    text-align: left;
+    padding: 0.1rem 0;
+}
+header nav
+{
+    display: flex;
+    justify-content: right;
+    gap: 25px;
+    margin-top: 15px;
+}
+header nav a
+{
+    color: white;
+    margin: 0px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: end;
+}
+
+header nav a:hover
+{
+    color: rgb(255, 119, 0);
+}
+footer {
+  color: #232328;
+}
+table, th, td {
+  border: 0px solid black;
+  border-collapse: collapse;
+  padding: 0px;
+  margin: 0px;
+}#messageBox {
+    display: flex;
+    margin-top: 10px;
+}
+a {
+  transition: color 0.3s ease;
+}
